@@ -10,12 +10,12 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
-    ffi (1.9.25)
+    ffi (1.9.23)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
-    jekyll (3.8.5)
+    jekyll (3.8.1)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -33,11 +33,9 @@ GEM
       jekyll (~> 3.3)
       sinatra (~> 1.4)
       sinatra-contrib (~> 1.4)
-    jekyll-feed (0.11.0)
+    jekyll-feed (0.9.3)
       jekyll (~> 3.3)
     jekyll-paginate (1.1.0)
-    jekyll-paginate-v2 (2.0.0)
-      jekyll (~> 3.0)
     jekyll-redirect-from (0.14.0)
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
@@ -46,10 +44,10 @@ GEM
       jekyll (~> 3.3)
     jekyll-sitemap (1.2.0)
       jekyll (~> 3.3)
-    jekyll-watch (2.1.1)
+    jekyll-watch (2.0.0)
       listen (~> 3.0)
-    kramdown (1.17.0)
-    liquid (4.0.1)
+    kramdown (1.16.2)
+    liquid (4.0.0)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -58,7 +56,7 @@ GEM
     multi_json (1.13.1)
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
-    public_suffix (3.0.3)
+    public_suffix (3.0.2)
     rack (1.6.10)
     rack-protection (1.5.5)
       rack
@@ -67,10 +65,10 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
-    rouge (3.3.0)
+    rouge (3.1.1)
     ruby_dep (1.5.0)
     safe_yaml (1.0.4)
-    sass (3.6.0)
+    sass (3.5.6)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -94,12 +92,12 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.8.1)
   jekyll-admin
-  jekyll-feed
+  jekyll-feed (~> 0.6)
   jekyll-paginate
-  jekyll-paginate-v2
   jekyll-redirect-from
   jekyll-seo-tag
   jekyll-sitemap
+  tzinfo-data
 
 BUNDLED WITH
-   1.17.3
+   1.16.2
