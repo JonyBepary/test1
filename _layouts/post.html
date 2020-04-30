@@ -3,10 +3,9 @@
 <html>
 <head>
 <!-- Introducing the head tag -->
-
+<!-- preloader -->
+{% include loader_head.html %}
 {% include head.html %}
-{% include androidColor.html %}
-
 </head>
 <body onload="loaderFunc()">
 {% include loader_body.html %}
@@ -46,6 +45,9 @@
 <!-- Introduce the module at the bottom of the page -->
 {% include footer.html %}
 
+<!-- preloder script -->
+{% include loader_script.html %}
+
 <!-- Quote the animation effect of wow.js -->
 <script src="/assets/js/wow.js"></script>
 <script>
@@ -67,10 +69,8 @@
     }
 </script>
 
-<!-- preloder script -->
 <!-- end -->
 {% include new-window-fix.html %}
 {% include open-embed.html %}
-{% include loader_script.html %}
 </body>
 </html>

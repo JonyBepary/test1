@@ -1,0 +1,16 @@
+change.log
+orgranize the _includes.
+remove unneccesary from the _includes.
+remove heavy 3rd party addon and add static+manual html code.
+add _data
+create a standalone author.yml liquid code.
+seo orgranize.
+new seo feature.
+divide some neccesery code font and matter.
+	_config.yml look more clean.
+merge some unneccesary code manual code.
+	_include in more clean
+
+some minor bug fix.
+
+svg favicon fix

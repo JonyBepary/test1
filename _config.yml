@@ -1,185 +1,74 @@
-# Site settings
-title: 'Jonys blog'
-description: "Jony's blog will guide you from the simplest basics of Programming to more Advance and modern programming idioms. And teach you things like Data Stucture, Algorithm Analysis, Math many other things you can imagine."
-keywords: 'প্রোগ্রামিং,Jonys blog, Jony Bepary'
-url: 'http://jony-blog.github.io' # your host
+title: Jonys blog
+webtitle: Code With Jhon
+description: >-
+  Jony's blog will guide you from the simplest basics of Programming to more
+  Advance and modern programming idioms. And teach you things like Data
+  Structure, Algorithm Analysis, Math many other things you can just imagine.
+keywords: 'প্রোগ্রামিং, Jonys blog, Jony Bepary'
+url: 'jonybepary.github.io/site_test'
 timzone: Asia/Dhaka
-# navigation bar：&emsp;
-nav: # best experience six labels and preferably no more than 4 Chinese characters per label
-  Home : '/'
-  Tags : '/tags/'
-  Timeline: '/timeline/'
-  About: '/about/'
-  reLink: '/reLink/'
+nav:
+  Home: /
+  tags: /tags/
+  Blog: /blog/
+  About: /about/
+  reLink: /reLink/
 
-# Author/Blogger
-author: true
-name: 'Jony Bepary'
-NickName: 'Jhon :)'
-webtitle: 'Code With Jhon'
-bio: 'Computer Programmer And a Scented Soul'
-about: true
-aboutyou: " Hello Myself Jony Bepary. And you are now standing on my little blog If you're reading this thread.
-Then I can say that maybe you have a little bit curious about me. <br>
-Isn't it? So lets start! <br><br>
-I am a student and a passionate programmer. <br>
-I love coding and writing on my favorite subject on this blog. <br><br>
-Well, this is all myself in a nutshell. Not so bad as a short brief-intro. But If you think youre not satisfied with this short brief-intro and if you have more time to spare.<br>
-Then please spare me couples of years. So that I can write about myself in a mini-novel called Me & Myself for you guys. And in order to read the rest & full of the legendary Me & Myself novel. You have to wait and pray for me. So the Almighty give me the power, strength, and tolerance to write this novel and achieve the pinnacle of the Excellence. "
-
-# aboutyou: 'Jony Bepary is a Parlor Programmer, lickerish Linux lover, &emsp and Open Source enthusiast.<br>
-#   He uses Linux (Arch) and believes in sharing knowledge. He is a hobbyist blogger. In his spare time, he writes the article on his favorite subjects. <br>
-# Apart from Blogging and Coding, He loves Ancient Philosophy, Researching About rare aromatic compound and Love To Reading books (novel&manga).'
-
-
-portraits: '/assets/madara.svg' # your portraits image file path
-
-# Future Post
+fb_page: true 
+fb_page_id:
+portraits: /assets/madara.svg
 future: true
-
-# Social Network Service
-SNS: true
-SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
-  mail: 'mailto:sohelahmedjony@gmail.com'
-  github: 'https://github.com/JonyBepary'
-  Codepen: 'https://codepen.io/sohel-ahmed-jony/#'
-  Twitter: 'https://twitter.com/@JBepary'
-  instagram: 'https://www.instagram.com/sohelahmedjony/'
-  Facebook: 'https://facebook.com/sa.jhone'
-  Google: 'https://plus.google.com/+JonyBepary'
-  # weixin: '' # 你的微信二维码存放的地址
-  # qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
-  # weibo: ''
-  # Dribbble: ''
-  # zhihu: ''
-  # juejin: ''
-  # twitch: ''
-
-permalink: /blog/:title/
-
-# Pagination
+permalink: '/blog/:title/'
 paginate: 4
-paginatepath: ['page:num']
-
-
-# since
+paginatepath:
+  - 'page:num'
 footer:
   since: 2018
-
-# Markdown
 markdown: kramdown
+enable_mathjax: true
 kramdown:
   input: GFM
-# Code highlighting rouge
 highlighter: rouge
-# Code highlighting using pygments theme: autumn\ default\ emacs\ friendly\ manni\ murphy\ pastie\ perldoc\ tango (Choose one of the theme names you like and fill in the single quotes below.)
-pygmentsTheme: 'default'
-
-# Links
+pygmentsTheme: default
 friends:
   subeen's blog: 'http://subeen.com/'
   Corey Schafer: 'http://coreyms.com/'
   C Book By knking: 'http://knking.com/books/c2/index.html'
   Python Cookbook: 'http://shop.oreilly.com/product/0636920027072.do'
-  'বাংলায় প্রোগ্রামিং রিসোর্সসমূহ': 'https://github.com/me-shaon/bangla-programming-resources'
+  বাংলায় প্রোগ্রামিং রিসোর্সসমূহ: 'https://github.com/me-shaon/bangla-programming-resources'
   Freely available programming book: 'https://github.com/EbookFoundation/free-programming-books'
   Grokking Algorithms (Best for Beginners who want learn Algorithms): 'https://www.manning.com/books/grokking-algorithms'
-
-# For Comments Best experience, Choose between disqus, liveRe and Gitment
-# disqus
 disqus: true
-disqus_url: 'https://jonysblog.disqus.com/embed.js' #
-# liveRe
+disqus_url: 'https://jonysblog.disqus.com/embed.js'
 livere: false
-livere_uid: 'MTAyMC8zNDI2OS8xMDgwNg==' # MTAyMC8zNDI2OS8xMDgwNg==
-# Gitment OAuth Application
+livere_uid: MTAyMC8zNDI2OS8xMDgwNg==
 Gitment: false
-Gitment_owner: ''  # github用户名
-Gitment_repo: ''  # github博客存放的仓库名
-client_id: ''  # 注册 OAuth Application 后获得的 client_id
-client_secret: ''  # 注册 OAuth Application 后获得的 client_secret
-
-# Share : weibo, qq, wechat, tencent, douban, qzone, linkedin, diandian, facebook, twitter, google
+Gitment_owner: ''
+Gitment_repo: ''
+client_id: ''
+client_secret: ''
 social-share: true
-social-share-items: ['facebook', 'twitter', 'google', 'linkedin',]
-
-# Baidu statistics fill in the relevant url code in baidu-url
+social-share-items:
+  - facebook
+  - twitter
+  - google
+  - linkedin
 baidu: false
 baidu-url: ''
-# Google Analytics Fill in your own tracking ID in Google Analytics in google-ID:''
 google: true
-google-ID: '<UA-42070905-2>'
-
-# Blog header information alternative color (this part does not act as a site variable in the site, it is written in the header of the post to serve as a page variable)
-
-color: rgb(154,133,255) rgb(255,90,90) rgb(255,210,32) rgb(98,170,255)
+google-ID: <UA-42070905-2>
+google_tag_manager: GTM-W7SZPF
+color: 'rgb(154,133,255) rgb(255,90,90) rgb(255,210,32) rgb(98,170,255)'
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-redirect-from
+  # - amp-jekyll
 whitelist:
   - jekyll-redirect-from
 
-#seo tag
-logo: /assets/banner.png
-
-twitter:
-  username: JBepary
-  card: summary
-
-social:
-  name: Jony Bepary
-  links:
-    - 'https://github.com/JonyBepary'
-    - 'https://codepen.io/sohel-ahmed-jony/#'
-    - 'https://twitter.com/@JBepary'
-    - 'https://www.instagram.com/sohelahmedjony/'
-    - 'https://facebook.com/sa.jhone'
-    - 'https://plus.google.com/+JonyBepary'
-
-
-# Author information for SEO
-honorificPrefix: "MD."
-image: "/assets/JHON.jpg"       # your portraits image file path for seo
-honorificSuffix: "King"
-disambiguatingDescription: "Jony Bepary is a Bangladeshi Software Scientist who is the creator, And the principal developer of the Amenominaka, which is Said to be the most powerful and easy Jekyll management tool"
-birthPlace: "Nawdoba, Janjira, Shariatpur"
-birthDate: "1997.10.25"
-height: "72 inches"
-gender: "male"
-memberOf: "Linux Bangladesh"
-nationality: "Bangladeshi"
-jobTitle: "Technical support of Software"
-knowsAbout: ["C", "Python", "Algorithm", "Web", "Full Stack"]
-knowsLanguage: ["Bangla, English"]
-
-worksFor:
-  type: "LocalBusiness"
-  name: "RB Telecom"
-  openingHours: "Sa-Fr 09:00-21:00"
-  priceRange: "$$$"
-  telephone: ["01719592594", "01770055633"]
-  image: "https://scontent.fdac1-1.fna.fbcdn.net/v/t1.0-0/c0.0.370.370/p370x247/22405584_136350086997737_4911101606944262040_n.jpg?_nc_cat=105&_nc_eui2=AeH5_cb29jzX1yn_Mt6IsMfKMQMKbgvDNR8K2lB_9DvfBsMhekUNLMl0SOH2qsVFkwlKD87NxqT1otBgPTryuMT2p7zOe4Ziyv8Xcxg8ia9JSA&oh=081667171756dc6a7c810b5be4ab399f&oe=5C4BAF7D"
-  address:
-    type: "PostalAddress"
-    addressCountry: "Bangladesh"
-    addressLocality: "Paschim Naodoba, Jajira, Shariatpur"
-    addressRegion: "Dhaka"
-
-
-
-
-
 webmaster_verifications:
   google: fSvcx9yPlR4_weC443EoV9lp2Yw9Yy5WH0ceAsoUB8o
-
-#bread crumbs
-# breadcrumbs:
-#   root:
-#     hide: true  # show breadcrumbs on root/home page
-#     image: false # Show image or title text
-
-
 exclude:
   - screenshot
   - node_modules
@@ -194,8 +83,7 @@ exclude:
   - README.md
   - script.py
   - changelog.md
-  - "*.Rmd"
+  - '*.Rmd'
   - .git*
   - package-lock.json
   - gulpconfig.json
-

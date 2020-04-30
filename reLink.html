@@ -12,9 +12,9 @@ description:
     {% include title.html %}
     <ul class="ex-list">
         <li  class="fadeInUp animated">
-          {% for friend in site.friends %}
+          {% for link in site.data.data.relink %}
             <span class="tag-name" >
-                <a href="{{ friend[1] }}">「&emsp;{{ friend[0] }}&emsp;」</a>
+                <a href="{{ link[1] }}">「&emsp;{{ link[0] }}&emsp;」</a>
             </span>
                 </br>
           {% endfor %}

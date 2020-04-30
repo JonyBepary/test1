@@ -2,6 +2,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!-- preloader -->
+{% include loader_head.html %}
+
 <!-- Introducing the head tag -->
 {% include head.html %}
 </head>
@@ -30,8 +33,7 @@
         document.body.scrollTop = 0;  //非ie
     }
 </script>
-
+<!-- preloder script -->
 {% include loader_script.html %}
-
 </body>
 </html>

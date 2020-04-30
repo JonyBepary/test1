@@ -1,0 +1,79 @@
+future: true
+author: true
+
+about: true
+type: Person
+honorificSuffix: Eng.
+honorificPrefix: MD.
+name: Jony Bepary
+NickName: 'Jhon :)'
+gender: male
+nationality: Bangladeshi
+birthPlace: 'Nawdoba, Janjira, Shariatpur'
+birthDate: "1997.10.25"
+jobTitle: "Managing Director"
+image: /assets/JHON.jpg
+height: 72 inches
+portraits: /assets/madara.svg
+email: sohelahmedjony@gmail.com
+url:   https://jony-blog.github.io/about/
+
+SNS: true
+SNS-icon:
+  mail: 'mailto:sohelahmedjony@gmail.com'
+  github: 'https://github.com/JonyBepary'
+  Codepen: 'https://codepen.io/sohel-ahmed-jony/#'
+  Twitter: 'https://twitter.com/@JBepary'
+  instagram: 'https://www.instagram.com/sohelahmedjony/'
+  Facebook: 'https://facebook.com/sa.jhone'
+  Google: 'https://plus.google.com/+JonyBepary'
+bio: Computer Programmer And a Scented Soul
+links:
+    - 'https://github.com/JonyBepary'
+    - 'https://codepen.io/sohel-ahmed-jony/#'
+    - 'https://twitter.com/@JBepary'
+    - 'https://www.instagram.com/sohelahmedjony/'
+    - 'https://facebook.com/sa.jhone'
+    - 'https://plus.google.com/+JonyBepary'
+memberOf: ""
+knowsAbout:
+  - C
+  - Python
+  - Algorithm
+  - Web
+  - Full Stack
+knowsLanguage:
+  - Bengali
+  - English
+twitter: 
+  username: JBepary
+  card: summary
+# social:
+about: true
+aboutyou: >-
+  "
+  Hello Myself Jony Bepary. And welcome to my little blog If you're reading this
+  thread. Then I can say you have  little curiosity about me. <br> 
+
+  Isn't it? So lets start! <br><br> 
+
+  I am a passionate programmer. <br> 
+
+  I love coding and writing my favorite stuff on this blog. <br><br> 
+
+  And also I am a student in Computer Science major. 
+
+  Currently, working in a travels company  as part-time salary man.
+
+  Well, this is all myself in a nutshell. Not so bad as a short brief-intro. But
+  If you think you're not satisfied with this short brief-intro and if you have
+  more time to spare.<br> 
+
+  Then please spare me some time. So that I can write about myself in a 
+  mini-novel called Me & Myself for you guys. And in order to read the rest &
+  full of the legendary Me & Myself novel. You have to wait and pray for me. So
+  the Almighty give me the power, strength, and tolerance to write this novel
+  and achieve the pinnacle of the Excellence. <br>
+  :p Joking! I am not the person who worth that much of your time. If you want
+  to have chitchat knock me  on messenger.
+  "

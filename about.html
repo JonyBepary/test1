@@ -1,9 +1,9 @@
 ---
 layout: default
-title: aboutMe
+title: Jony Bepary
 page-title: aboutMe
 home-title: Show you about me.
-description:
+description: Computer Programmer And a Scented Soul.
 ---
 
 {% include header.html %}
@@ -12,16 +12,16 @@ description:
     {% include title.html %}
     <ul class="ex-list">
         <li class="fadeInUp animated">
-        {% if site.author %}
-          <div class="portraits"><img src="{{ site.portraits }}" alt=""></div>
-          <span id="yourname">{{ site.name }}</span>
-          <span id="yourbio">{{ site.bio }}</span>
-          {% if site.about %}
-            <span id="aboutyou">{{ site.aboutyou }}</span>
+        {% if site.data.author.author %}
+          <div class="portraits"><img src="{{ site.data.author.portraits }}" alt=""></div>
+          <span id="yourname">{{ site.data.author.name }}</span>
+          <span id="yourbio">{{ site.data.author.bio }}</span>
+          {% if site.data.author.about %}
+            <span id="aboutyou">{{ site.data.author.aboutyou }}</span>
           {% endif %}
         {% endif %}
-        {% if site.SNS %}
-          {% for sns-icon in site.SNS-icon %}
+        {% if site.data.author.SNS %}
+          {% for sns-icon in site.data.author.SNS-icon %}
             <a href="{{ sns-icon[1] }}" title="{{ sns-icon[0] }}">
               <svg class="icon" aria-hidden="true">
                 <use xlink:href="#icon-{{ sns-icon[0] }}"></use>
